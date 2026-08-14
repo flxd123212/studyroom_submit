@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.example.studyroom.mapper.UserMapper">
+
+    <!-- 列名 user_id → Java 字段 id，student_id → studentId -->
+    <select id="login" resultType="org.example.studyroom.entity.User">
+        select
+            user_id     as id,
+            student_id  as studentId,
+            username,
+            password,
+            role
+        from user
+        where student_id = #{studentId}
+          and password = #{password}
+    </select>
+
+</mapper>

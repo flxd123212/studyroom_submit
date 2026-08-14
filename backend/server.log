@@ -1,0 +1,28 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-06-12T14:50:10.898+08:00  INFO 3816 --- [           main] o.e.studyroom.StudyRoomApplication       : Starting StudyRoomApplication v0.0.1-SNAPSHOT using Java 23.0.2 with PID 3816 (C:\Users\flxd\Desktop\å·¥ä½œæ–‡ä»¶\è½¯ä»¶å·¥ç¨‹\studyroom_submit\backend\studyroom.jar started by flxd in C:\Users\flxd\Desktop\å·¥ä½œæ–‡ä»¶\è½¯ä»¶å·¥ç¨‹\studyroom_submit\backend)
+2026-06-12T14:50:10.899+08:00  INFO 3816 --- [           main] o.e.studyroom.StudyRoomApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T14:50:11.756+08:00  INFO 3816 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-06-12T14:50:11.764+08:00  INFO 3816 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-12T14:50:11.764+08:00  INFO 3816 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-06-12T14:50:11.799+08:00  INFO 3816 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-12T14:50:11.800+08:00  INFO 3816 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 842 ms
+2026-06-12T14:50:11.955+08:00  INFO 3816 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T14:50:12.146+08:00  INFO 3816 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7793ad58
+2026-06-12T14:50:12.148+08:00  INFO 3816 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+? ÓÊ¼þ·þÎñÒÑ¾ÍÐ÷
+2026-06-12T14:50:12.369+08:00  INFO 3816 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-06-12T14:50:12.714+08:00  INFO 3816 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2026-06-12T14:50:12.726+08:00  INFO 3816 --- [           main] o.e.studyroom.StudyRoomApplication       : Started StudyRoomApplication in 2.157 seconds (process running for 2.558)
+2026-06-12T14:50:41.638+08:00  INFO 3816 --- [0.0-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-12T14:50:41.639+08:00  INFO 3816 --- [0.0-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-12T14:50:41.639+08:00  INFO 3816 --- [0.0-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-12T14:50:46.631+08:00  INFO 3816 --- [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-12T14:50:46.636+08:00  INFO 3816 --- [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

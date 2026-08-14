@@ -1,0 +1,24 @@
+# 端口改为8082，解决端口占用
+server:
+  port: 8082
+  address: 0.0.0.0    # 允许局域网其他设备访问
+spring:
+  # 数据库连接，请改成你自己的MySQL密码
+  datasource:
+    url: jdbc:mysql://localhost:3306/study_room?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: flxd123212    # ← 请修改为你自己的 MySQL 密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  # 邮箱配置 — 如需发送验证码，请填写真实邮箱信息
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: your_email@qq.com
+    password: your_authorization_code
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
