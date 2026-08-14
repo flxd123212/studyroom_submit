@@ -1,1 +1,0 @@
-CreateObject("WScript.Shell").Run "start-electron.bat", 0, False\n' 参数说明: 0=隐藏窗口, False=不等待返回", "filePath": "C:\\Users\\flxd\\Desktop\\工作文件\\软件工程\\studyroom_submit\\studyroom_submit\\run_electron.vbs"}
